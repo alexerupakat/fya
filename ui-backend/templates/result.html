@@ -1,0 +1,14 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Object Detection Result</title>
+</head>
+<body>
+    <h1>Object Detection Result</h1>
+    <h2>Detections:</h2>
+    <pre>{{ detections | tojson }}</pre>
+    <h2>Image:</h2>
+    <img src="data:image/jpeg;base64,{{ image }}" alt="Image with detections">
+</body>
+</html>
